@@ -4,8 +4,8 @@
 # Time Spent: 0:30
 
 # Retrieve input
-initialBalance = float(raw_input("Enter the outstanding balance on your credit card: "))
-interestRate = float(raw_input("Enter the annual credit card interest rate as a decimal: "))
+initialBalance = float(input("Enter the outstanding balance on your credit card: "))
+interestRate = float(input("Enter the annual credit card interest rate as a decimal: "))
 # Initialize state variables
 balance = initialBalance
 lowPayment = balance/12
@@ -32,7 +32,7 @@ while (True):
 
         # Round monthly payment up to the nearest cent
         monthlyPayment = round(monthlyPayment + 0.004999, 2)
-        print "Monthly payment to pay off debt in 1 year:", round(monthlyPayment,2)
+        print ("Monthly payment to pay off debt in 1 year:", round(monthlyPayment,2))
 
         # Recompute remaining balance and the number of months needed
         balance = initialBalance

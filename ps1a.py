@@ -4,9 +4,9 @@
 # Time Spent: 0:45
 
 # Retrieve input
-balance = float(raw_input("Enter the outstanding balance on your credit card: "))
-annualInterestRate = float(raw_input("Enter the annual credit card interest rate as a decimal: "))
-minMonthlyPaymentRate = float(raw_input("Enter the minimum monthly payment rate as a decimal: "))
+balance = float(input("Enter the outstanding balance on your credit card: "))
+annualInterestRate = float(input("Enter the annual credit card interest rate as a decimal: "))
+minMonthlyPaymentRate = float(input("Enter the minimum monthly payment rate as a decimal: "))
 # Initialize state variables
 numMonths = 1
 minPayment = 0
