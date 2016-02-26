@@ -32,7 +32,7 @@ while (True):
 
         # Round monthly payment up to the nearest cent
         monthlyPayment = round(monthlyPayment + 0.004999, 2)
-        print ("Monthly payment to pay off debt in 1 year:", round(monthlyPayment,2))
+        print ("Monthly payment to pay off debt in 1 year: $" + str(monthlyPayment))
 
         # Recompute remaining balance and the number of months needed
         balance = initialBalance
